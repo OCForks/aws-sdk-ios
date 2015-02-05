@@ -16,6 +16,7 @@ end
 
 target :AWSOSXSDKv2 do
     platform :osx, '10.9'
+    link_with 'AWSOSXSDKv2', 'AWSOSXSDKv2Tests'
     
     pod 'Bolts', '~> 1.1.0'
     pod 'Mantle', '~> 1.4'
